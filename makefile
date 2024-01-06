@@ -6,7 +6,7 @@
 #    By: myousef <myousef@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/12/15 18:17:31 by myousef           #+#    #+#              #
-#    Updated: 2024/01/05 20:52:39 by myousef          ###   ########.fr        #
+#    Updated: 2024/01/06 12:41:08 by myousef          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,6 +38,3 @@ fclean:			clean
 				$(RM) $(NAME)
 
 re:				fclean $(NAME)
-
-
-.PHONY:			all clean fclean re bonus 
